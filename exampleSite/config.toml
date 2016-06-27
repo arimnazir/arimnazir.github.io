@@ -1,11 +1,11 @@
 # Site settings
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
-title = "Highlights"
+title = "Determinate Stoic"
 theme = "hugo-highlights-theme"
 
 # Enter your tracking code to enable Google analytics
-googleAnalytics = ""
+googleAnalytics = "UA-79936510-1"
 
 [params]
 
@@ -17,7 +17,7 @@ googleAnalytics = ""
   # To provide more meta data for search engings feel free to add a few informations.
   # This lines will be inserted as meta tags.
   name = "Ari M. Nazir"
-  description = "Your Description"
+  description = "I am a Determinate Stoic"
 
   # For a static site it's not possible to provide a contact form. The contact form uses
   # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
@@ -34,49 +34,49 @@ googleAnalytics = ""
 
   # Hero Section
   [params.hero]
-    title = "Highlights"
-    description = "a fun litte { responsive } single Pager by [HTML5UP](//html5up.net)"
+    title = "Determinate Stoic"
+    description = Welcome to the Determinate Stoic"
     buttonText = "begin"
 
   # about section
   [params.about]
     enable = true
-    title = "Who am I"
-    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
+    title = "What is a Determinate Stoic"
+    description = "A Determinate Stoic exists at the intersection of mindfulness, ambition, grit, and peace."
     buttonText = "next"
-    # the picture is storead at static/images/
+    # the picture is stored at static/images/
     picture = "pic01.jpg"
 
   # skill section
   [params.skill_list]
     enable = true
-    title = "Stuff I do"
-    description = "Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate."
+    title = "Current Happenings"
+    description = "Work, Work, Work. Currently, I am accumulating total learning at the apex of technology and entrepreneurship."
     buttonText = "next"
-    # the picture is storead at static/images/
+    # the picture is stored at static/images/
     picture = "pic02.jpg"
 
     [[params.skills]]
       icon = "fa-camera-retro"
-      title = "Magna Etiam"
+      title = "Paris"
 
     [[params.skills]]
       icon = "fa-pencil"
-      title = "Lorem Ipsum"
+      title = "Burano"
 
     [[params.skills]]
       icon = "fa-code"
-      title = "Nulla Tempus"
+      title = "Venice"
 
     [[params.skills]]
       icon = "fa-coffee"
-      title = "Sed Feugiat"
+      title = "Petra"
   # infos section
   [params.infos]
     enable = true
-    title = "One more thing"
-    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
-    # the picture is storead at static/images/
+    title = "My current interests include"
+    description = "Entrepreneurship, Technology, Music, Travel, Finance, Systemic Policy, Neuroscience, Applied Philosophy, Applied Science, Yoga, Blockchain"
+    # the picture is stored at static/images/
     picture = "pic03.jpg"
 
   # footer section
@@ -89,7 +89,7 @@ googleAnalytics = ""
 
   [params.footer]
     enable = true
-    title = "Get in Touch"
+    title = "Connect with me"
 
     # contact form
     [params.footer.contact]
@@ -98,7 +98,7 @@ googleAnalytics = ""
     [params.footer.contact.form]
       name = "Ari M. Nazir"
       email = "arij.m.nazir@gmail.com"
-      message = "Say hello"
+      message = "I'm reaching out to"
       buttonText = "Connect"
 
     # social icons
